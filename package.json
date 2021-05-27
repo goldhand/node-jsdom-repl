@@ -1,6 +1,6 @@
 {
   "name": "node-jsdom-repl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monkeypatch your node REPL with browser globals using jsdom",
   "main": "index.js",
   "bin": {
