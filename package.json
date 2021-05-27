@@ -3,11 +3,17 @@
   "version": "1.0.1",
   "description": "Monkeypatch your node REPL with browser globals using jsdom",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "check-peer-dependencies.js"
+  ],
   "bin": {
     "node-browser": "./bin/node-browser.js",
     "node-jsdom-repl": "./bin/node-browser.js"
   },
-  "scripts": {},
+  "scripts": {
+    "postinstall": "./check-peer-dependencies.js"
+  },
   "keywords": [
     "jsdom",
     "node",
@@ -36,6 +42,6 @@
     "jsdom": "^16.6.0"
   },
   "peerDependencies": {
-    "jsdom": "^1"
+    "jsdom": "*"
   }
 }
