@@ -11,12 +11,16 @@
   "keywords": [
     "jsdom",
     "node",
+    "browser",
+    "window",
     "repl",
     "monkeypatch"
   ],
   "tags": [
     "jsdom",
     "node",
+    "browser",
+    "window",
     "repl"
   ],
   "author": "Will Farley <a.will.farley@gmail.com> (http://www.willfarley.org/)",

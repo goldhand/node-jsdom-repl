@@ -1,4 +1,5 @@
 # node-jsdom-repl
+[![NPM version][npm-img]][npm-url]
 
 Monkeypatch your node REPL with browser globals using jsdom.
 
@@ -62,3 +63,6 @@ If you want to pass custom options or use a different global you can
   }
 );
 ```
+
+[npm-url]: https://npmjs.org/package/node-jsdom-repl
+[npm-img]: https://badge.fury.io/js/node-jsdom-repl.svg
