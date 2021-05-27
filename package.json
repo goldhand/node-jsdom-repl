@@ -1,12 +1,37 @@
 {
-  "name": "jsdom-node-repl",
+  "name": "node-jsdom-repl",
   "version": "1.0.0",
-  "description": "",
+  "description": "Monkeypatch your node REPL with browser globals using jsdom",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "node-browser": "./bin/node-browser.js",
+    "node-jsdom-repl": "./bin/node-browser.js"
   },
-  "keywords": [],
-  "author": "Will Farley",
-  "license": "ISC"
+  "scripts": {},
+  "keywords": [
+    "jsdom",
+    "node",
+    "repl",
+    "monkeypatch"
+  ],
+  "tags": [
+    "jsdom",
+    "node",
+    "repl"
+  ],
+  "author": "Will Farley <a.will.farley@gmail.com> (http://www.willfarley.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldhand/node-jsdom-repl/issues"
+  },
+  "homepage": "https://github.com/goldhand/node-jsdom-repl#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "jsdom": "^16.6.0"
+  },
+  "peerDependencies": {
+    "jsdom": "^1"
+  }
 }
